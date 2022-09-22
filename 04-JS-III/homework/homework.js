@@ -2,20 +2,24 @@
 
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
-  // Tu código:
+  // Tu código: [5,6,8,9] indice 0 = 5 
+  // indice 1 = 6, indice 2 = 8, indice  3 = 9
+  return array[0]
 }
-
-
-function devolverUltimoElemento(array) {
-  // Devuelve el último elemento de un array
-  // Tu código:
-}
-
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
-  // Tu código:
+  // Tu código: [ 5, 6, 8, 9] -> length
+  return array.length
 }
+
+function devolverUltimoElemento(array) {
+  // Devuelve el último elemento de un array
+  // Tu código: [ 5, 6, 8, 9] -> length
+  return array[array.length-1]
+}
+
+
 
 
 function incrementarPorUno(array) {
