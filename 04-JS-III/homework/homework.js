@@ -27,8 +27,15 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-}
+// Tu código: [ 5+1, 6+1, 8+1, 9+1] -> length
+let arr2 = array.map((e) => e + 1)
+return arr2
+//for(let i= 0; i<array.length; i++){
+//array[i] = array[i] + 1
+ }
+ //return arr2
 
+}
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
@@ -58,6 +65,8 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+
+  
 }
 
 
